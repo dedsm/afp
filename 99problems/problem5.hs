@@ -1,3 +1,3 @@
-reverse :: [a] -> [a]
-reverse [] = []
-revese (x:xs) = reverse xs ++ [x]
+myReverse :: [a] -> [a]
+myReverse [] = []
+myReverse (x:xs) = myReverse xs ++ [x]
